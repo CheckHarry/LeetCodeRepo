@@ -16,16 +16,10 @@ int count1s(int m) {
 int countArrangement(int n) {
 	array<int, 1 << 15> mask{0};
 	for (int num = 1; num <= n; num++) mask[1 << (num - 1)] = 1; 
-	for (int state = 1; state < 1 << n ; state++) {
-		for (int ele = 1; ele <= n; ele++) {
-			int temp = count1s(state);
-			if ((1 << (ele - 1) | state) == state) {
-				if (ele % temp == 0 or temp % ele == 0)
+	for (int state = 1; state < 1 << n ; state++) 
+		for (int ele = 1; ele <= n; ele++) 
+			if ((1 << (ele - 1) | state) == state and (ele % count1s(state) == 0 or count1s(state) % ele == 0)) 
 					mask[state] += mask[state - (1 << (ele - 1))];
-			}
-		}
-		
-	}
 	return mask[(1<<n) - 1];
 }
 
