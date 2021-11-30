@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 #define min(x , y) x > y ? y : x;
-
+#define max(x , y) x > y ? x : y;
 
 
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -13,8 +13,8 @@ vector<int> findMedianSortedArrays_even(vector<int>& nums1, vector<int>& nums2) 
 	int totalLength = nums1.size() + nums2.size();
 	int i = nums1.size() / 2, j = totalLength / 2 - i; // length of left interval
 	while (true) {
-		if (!(nums1[i] >= nums2[j - 1]))  i += ((i / 2) + 1);
-		else if (!(nums2[j] >= nums1[i - 1])) i -= ((i / 2) + 1);
+		if (!(nums1[i] >= nums2[j - 1]))  i += max((i / 2) , 1);
+		else if (!(nums2[j] >= nums1[i - 1])) i -= max((i / 2) , 1);
 		else break;
 		i = min(nums1.size(), i);
 		j = totalLength / 2 - i;
