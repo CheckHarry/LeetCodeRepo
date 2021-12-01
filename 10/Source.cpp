@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <map>
 #include <iostream>
 using namespace std;
 
@@ -32,50 +33,87 @@ vector<lexeme> parse(string& str) {
 // turning the lexem vector to NFA. then simulate the NFA using set.
 
 // compute the next state(s) by passing current state and character;
-set<int> next_states(int index, lexeme& lex, char chr , bool laststate) {
-	set<int> to_return;
-	if (!laststate){
-	if (lex.type == 1) {
-		if (lex.chr == '.') to_return.insert({ index , index + 1 });
-		else if (lex.chr == chr) to_return.insert({ index , index + 1 });
-		else  to_return.insert({ index + 1 });
-	}
-	else {
-		if (lex.chr == '.') to_return.insert(index + 1);
-		else if (lex.chr == chr) to_return.insert(index + 1);
-	}
-	}
-	else {
+struct state {
+	map<int, set<int>> transistion; // represent char as int , as -1 represent epsilon (empty)
+};
+
+vector<state> toMachine(vector<lexeme> lexs) {
+	vector<state> to_return;
+	state start;
+	int cur_index = 0;
+	to_return.push_back(start);
+	for (lexeme lex : lexs) {
 		if (lex.type == 1) {
-			if (lex.chr == '.') to_return.insert({index});
-			else if (lex.chr == chr) to_return.insert({index});
-			else  to_return.insert({ index });
+			to_return[cur_index].transistion.insert(pair<int, set<int>>(-1, { cur_index + 1 }));
+			cur_index += 1;
+			state to_insert1;
+			to_return.push_back(to_insert1);
+			to_return[cur_index].transistion.insert(pair<int, set<int>>(-1, { cur_index , cur_index + 1}));
+			to_return[cur_index].transistion.insert(pair<int, set<int>>(lex.chr, { cur_index }));
+			cur_index += 1;
+			state to_insert2;
+			to_return.push_back(to_insert2);
+		}
+		else {
+			to_return[cur_index].transistion.insert(pair<int, set<int>>(lex.chr, { cur_index + 1 }));
+			cur_index += 1;
+			state to_insert;
+			to_return.push_back(to_insert);
 		}
 	}
 	return to_return;
 }
 
-bool isMatch(string s, string p) {
-	vector<lexeme> lexs = parse(p);
-	int laststate = lexs.size() - 1 , acceptstate = lexs.size();
-	set<int> cur_state_set({ 0 });
-	for (string::iterator chr = s.begin(); chr != s.end(); chr ++ ) {
-		set<int> next_state_set;
-		set<int>::iterator it;
-		for (it = cur_state_set.begin(); it != cur_state_set.end(); it++) {
-			set<int> temp;
-			temp = (chr != s.end() - 1) ? next_states(*it, lexs[*it], *chr , *it == laststate) : next_states(*it, lexs[*it], *chr, *it == false);
-			next_state_set.insert(temp.begin(), temp.end());
+set<int> epsilon_closure(set<int> &state_set, vector<state>& state_vec, char chr) {
+	set<int>::iterator it;
+	set<int> to_return;
+	for (it = state_set.begin(); it != state_set.end(); it++) {
+		if (state_vec[*it].transistion.find(chr) != state_vec[*it].transistion.end()) {
+			to_return.insert(state_vec[*it].transistion[chr].begin(), state_vec[*it].transistion[chr].end());
 		}
-		cur_state_set = next_state_set;
-		if (cur_state_set.empty()) return false;
+		if (state_vec[*it].transistion.find('.') != state_vec[*it].transistion.end()) {
+			to_return.insert(state_vec[*it].transistion['.'].begin(), state_vec[*it].transistion['.'].end());
+		}
 	}
+	int cursize = to_return.size();
+	while (true) {
+		for (it = to_return.begin(); it != to_return.end(); it++) {
+			to_return.insert(state_vec[*it].transistion[-1].begin(), state_vec[*it].transistion[-1].end());
+		}
+		if (cursize == to_return.size()) break;
+		cursize = to_return.size();
+	}
+	return to_return;
+}
 
-	return cur_state_set.find(acceptstate) != cur_state_set.end();
+set<int> epsilon_closure(set<int>& state_set, vector<state>& state_vec) {
+	set<int>::iterator it;
+	set<int> to_return = state_set;
+	int cursize = to_return.size();
+	while (true) {
+		for (it = to_return.begin(); it != to_return.end(); it++) {
+			to_return.insert(state_vec[*it].transistion[-1].begin(), state_vec[*it].transistion[-1].end());
+		}
+		if (cursize == to_return.size()) break;
+		cursize = to_return.size();
+	}
+	return to_return;
+}
+
+
+bool isMatch(string s, string p) {
+	vector<state> state_vec = toMachine(parse(p));
+	set<int> cur_state_set({ 0 });
+	cur_state_set = epsilon_closure(cur_state_set , state_vec);
+	for (string::iterator chr = s.begin(); chr != s.end(); chr ++ ) {
+		cur_state_set = epsilon_closure(cur_state_set, state_vec, *chr);
+	}
+	if (cur_state_set.find(state_vec.size() - 1) != cur_state_set.end()) return true;
+	else return false;
 }
 
 int main() {
-	string p({ "ab*ba.*kasdc*" });
-	string s({ "abbattasdtkasdcccccc" });
-	cout << isMatch(s,p);
+	string p({ "a*b*aaa" });
+	string s({ "bbbbbbbbbbbbbbbbbbbbbbbbbaaa" });
+	cout << isMatch(s , p);
 }
