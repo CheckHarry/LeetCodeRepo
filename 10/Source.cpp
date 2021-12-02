@@ -113,7 +113,7 @@ bool isMatch(string s, string p) {
 }
 
 int main() {
-	string p({ "a*b*aaa" });
-	string s({ "bbbbbbbbbbbbbbbbbbbbbbbbbaaa" });
+	string p({ "a.*b" });
+	string s({ "aasdsdasduiuniuwneb" });
 	cout << isMatch(s , p);
 }
