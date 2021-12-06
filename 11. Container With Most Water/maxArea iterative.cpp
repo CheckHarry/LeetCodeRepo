@@ -8,15 +8,13 @@ using namespace std;
 
 int maxArea(vector<int>& height) {
 	int left = 0, right = height.size() - 1 , max_h = 0;
-	while (true) {
+	while (right > left) {
 		if (height[left] > height[right]) {
-			max_h = max((right - left) * (height[left] - height[right]) , max_h);
-			if (right - left == 1) break;
+			max_h = max((right - left) * (height[right]) , max_h);
 			right--;
 		}
 		else {
-			max_h = max((right - left) * (height[right] - height[left]), max_h);
-			if (right - left == 1) break;
+			max_h = max((right - left) * ( height[left]), max_h);
 			left++;
 		}
 	}
