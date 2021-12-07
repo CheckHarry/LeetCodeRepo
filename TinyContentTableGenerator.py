@@ -12,5 +12,5 @@ dirs.remove('.git')
 dirs.sort(key = lambda x : int(re.match('^([0-9]*)\. (.*)' , x).group(1) ))
 for directory in dirs:
     match = re.match('^([0-9]*)\. (.*)' , directory)
-    file.write('|{number}|[{Name}](\'{URL}\')|\n'.format(number = match.group(1) , Name = match.group(2) , URL = URL_root + directory.replace(' ' , '%20')))
+    file.write('|{number}|[{Name}]({URL})|\n'.format(number = match.group(1) , Name = match.group(2) , URL = URL_root + directory.replace(' ' , '%20')))
 
