@@ -1,0 +1,1 @@
+ awk '{split($0 , a , " ");for(x in a){print $x}}' words.txt  | sort | uniq -c | sort -nr | awk '{print $2" "$1}'
