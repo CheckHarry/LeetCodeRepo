@@ -18,8 +18,12 @@ Feel free to look around.
 |20|[Valid Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/20.%20Valid%20Parentheses)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
+|37|[Longest Valid Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20Longest%20Valid%20Parentheses)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
 |39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
+|192|[Word Frequency](https://github.com/CheckHarry/LeetCodeRepo/tree/main/192.%20Word%20Frequency)|
+|193|[Valid Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/193.%20Valid%20Phone%20Number)|
+|194|[Transpose File](https://github.com/CheckHarry/LeetCodeRepo/tree/main/194.%20Transpose%20File)|
 |461|[HammngDistance](https://github.com/CheckHarry/LeetCodeRepo/tree/main/461.%20HammngDistance)|
 |470|[Implement Rand10() Using Rand7()](https://github.com/CheckHarry/LeetCodeRepo/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())|
 |526|[Beautiful Arrangement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/526.%20Beautiful%20Arrangement)|
