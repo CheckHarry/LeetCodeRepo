@@ -15,6 +15,7 @@ Feel free to look around.
 |9|[Palindrome Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/9.%20Palindrome%20Number)|
 |10|[Regular Expression Matching](https://github.com/CheckHarry/LeetCodeRepo/tree/main/10.%20Regular%20Expression%20Matching)|
 |11|[Container With Most Water](https://github.com/CheckHarry/LeetCodeRepo/tree/main/11.%20Container%20With%20Most%20Water)|
+|17|[Letter Combinations of a Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)|
 |20|[Valid Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/20.%20Valid%20Parentheses)|
 |25|[Reverse Nodes in k-Group](https://github.com/CheckHarry/LeetCodeRepo/tree/main/25.%20Reverse%20Nodes%20in%20k-Group)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
@@ -22,6 +23,7 @@ Feel free to look around.
 |32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
 |39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
+|49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
@@ -36,3 +38,4 @@ Feel free to look around.
 |790|[Domino and Tromino Tiling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/790.%20Domino%20and%20Tromino%20Tiling)|
 |878|[NthMagicBumber](https://github.com/CheckHarry/LeetCodeRepo/tree/main/878.%20NthMagicBumber)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
+|1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
