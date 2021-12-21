@@ -27,15 +27,19 @@ Feel free to look around.
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
+|147|[Insertion Sort List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/147.%20Insertion%20Sort%20List)|
 |155|[MinStack](https://github.com/CheckHarry/LeetCodeRepo/tree/main/155.%20MinStack)|
 |192|[Word Frequency](https://github.com/CheckHarry/LeetCodeRepo/tree/main/192.%20Word%20Frequency)|
 |193|[Valid Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/193.%20Valid%20Phone%20Number)|
 |194|[Transpose File](https://github.com/CheckHarry/LeetCodeRepo/tree/main/194.%20Transpose%20File)|
+|220|[maximalSquare](https://github.com/CheckHarry/LeetCodeRepo/tree/main/220.%20maximalSquare)|
+|292|[Nim Game](https://github.com/CheckHarry/LeetCodeRepo/tree/main/292.%20Nim%20Game)|
 |461|[HammngDistance](https://github.com/CheckHarry/LeetCodeRepo/tree/main/461.%20HammngDistance)|
 |470|[Implement Rand10() Using Rand7()](https://github.com/CheckHarry/LeetCodeRepo/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())|
 |526|[Beautiful Arrangement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/526.%20Beautiful%20Arrangement)|
 |721|[Accounts Merge](https://github.com/CheckHarry/LeetCodeRepo/tree/main/721.%20Accounts%20Merge)|
 |790|[Domino and Tromino Tiling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/790.%20Domino%20and%20Tromino%20Tiling)|
 |878|[NthMagicBumber](https://github.com/CheckHarry/LeetCodeRepo/tree/main/878.%20NthMagicBumber)|
+|902|[Numbers At Most N Given Digit Set](https://github.com/CheckHarry/LeetCodeRepo/tree/main/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
