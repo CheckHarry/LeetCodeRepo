@@ -27,6 +27,7 @@ Feel free to look around.
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
+|143|[Reorder List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/143.%20Reorder%20List)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
 |147|[Insertion Sort List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/147.%20Insertion%20Sort%20List)|
 |155|[MinStack](https://github.com/CheckHarry/LeetCodeRepo/tree/main/155.%20MinStack)|
@@ -45,6 +46,7 @@ Feel free to look around.
 |790|[Domino and Tromino Tiling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/790.%20Domino%20and%20Tromino%20Tiling)|
 |878|[NthMagicBumber](https://github.com/CheckHarry/LeetCodeRepo/tree/main/878.%20NthMagicBumber)|
 |902|[Numbers At Most N Given Digit Set](https://github.com/CheckHarry/LeetCodeRepo/tree/main/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)|
+|984|[String Without AAA or BBB](https://github.com/CheckHarry/LeetCodeRepo/tree/main/984.%20String%20Without%20AAA%20or%20BBB)|
 |1200|[minimumAbsDifference](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1200.%20minimumAbsDifference)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
