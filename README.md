@@ -20,13 +20,13 @@ Feel free to look around.
 |25|[Reverse Nodes in k-Group](https://github.com/CheckHarry/LeetCodeRepo/tree/main/25.%20Reverse%20Nodes%20in%20k-Group)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
-|32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
+|32|[longestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20longestValidParentheses)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
-|39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
 |45|[Jump Game II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/45.%20Jump%20Game%20II)|
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
+|56|[Merge Intervals](https://github.com/CheckHarry/LeetCodeRepo/tree/main/56.%20Merge%20Intervals)|
 |143|[Reorder List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/143.%20Reorder%20List)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
 |147|[Insertion Sort List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/147.%20Insertion%20Sort%20List)|
@@ -34,6 +34,7 @@ Feel free to look around.
 |192|[Word Frequency](https://github.com/CheckHarry/LeetCodeRepo/tree/main/192.%20Word%20Frequency)|
 |193|[Valid Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/193.%20Valid%20Phone%20Number)|
 |194|[Transpose File](https://github.com/CheckHarry/LeetCodeRepo/tree/main/194.%20Transpose%20File)|
+|210|[Course Schedule II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/210.%20Course%20Schedule%20II)|
 |220|[maximalSquare](https://github.com/CheckHarry/LeetCodeRepo/tree/main/220.%20maximalSquare)|
 |231|[Power of Two](https://github.com/CheckHarry/LeetCodeRepo/tree/main/231.%20Power%20of%20Two)|
 |292|[Nim Game](https://github.com/CheckHarry/LeetCodeRepo/tree/main/292.%20Nim%20Game)|
