@@ -42,7 +42,6 @@ Feel free to look around.
 |227|[Basic Calculator II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/227.%20Basic%20Calculator%20II)|
 |231|[Power of Two](https://github.com/CheckHarry/LeetCodeRepo/tree/main/231.%20Power%20of%20Two)|
 |292|[Nim Game](https://github.com/CheckHarry/LeetCodeRepo/tree/main/292.%20Nim%20Game)|
-|312|[Burst Balloons](https://github.com/CheckHarry/LeetCodeRepo/tree/main/312.%20Burst%20Balloons)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/CheckHarry/LeetCodeRepo/tree/main/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)|
 |394|[Decode String](https://github.com/CheckHarry/LeetCodeRepo/tree/main/394.%20Decode%20String)|
 |461|[HammngDistance](https://github.com/CheckHarry/LeetCodeRepo/tree/main/461.%20HammngDistance)|
