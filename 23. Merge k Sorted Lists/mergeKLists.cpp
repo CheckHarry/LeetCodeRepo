@@ -14,12 +14,23 @@ struct ListNode {
  };
 
 
-struct Pair{
-    int val;
-    int No;
-    Pair(int value , int Nos) : val(value) , No(Nos){};
-};
 
 ListNode* mergeKLists(vector<ListNode*>& lists) {
+    auto cmp = [](ListNode* x , ListNode* y){return x -> val > y -> val;};
+    priority_queue<ListNode* , vector<ListNode*> , decltype(cmp)> k_minimal_queue(cmp);
+    for (ListNode* min_element: lists) k_minimal_queue.push(min_element);
+    ListNode *cur = k_minimal_queue.top() , *to_return = k_minimal_queue.top();
+    k_minimal_queue.pop();
+    k_minimal_queue.push(cur -> next);
+    while (!k_minimal_queue.empty()){
+        cur -> next = k_minimal_queue.top();
+        k_minimal_queue.pop();
+        if(cur -> next -> next != nullptr) k_minimal_queue.push(cur -> next -> next);
+        cur = cur -> next;
+    }
+    return to_return;
+}
+
+int main(){
     
 }
