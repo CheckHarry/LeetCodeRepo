@@ -9,8 +9,8 @@ int numPairsDivisibleBy60(vector<int>& time) {
     int ans = 0;
     for (int duration : time) Count_div[duration%60] += 1;
     for (int remainder = 1 ; remainder < 30 ; remainder ++) ans += Count_div[remainder] * Count_div[60 - remainder];
-    ans += Count_div[0] * ( Count_div[0] - 1 ) / 2
-    ans += Count_div[30] * ( Count_div[30] - 1 ) / 2
+    ans += Count_div[0] * ( Count_div[0] - 1 ) / 2 ; 
+    ans += Count_div[30] * ( Count_div[30] - 1 ) / 2 ;
     return ans;
 }
 
