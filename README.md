@@ -17,12 +17,14 @@ Feel free to look around.
 |11|[Container With Most Water](https://github.com/CheckHarry/LeetCodeRepo/tree/main/11.%20Container%20With%20Most%20Water)|
 |17|[Letter Combinations of a Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)|
 |20|[Valid Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/20.%20Valid%20Parentheses)|
+|23|[Merge k Sorted Lists](https://github.com/CheckHarry/LeetCodeRepo/tree/main/23.%20Merge%20k%20Sorted%20Lists)|
 |25|[Reverse Nodes in k-Group](https://github.com/CheckHarry/LeetCodeRepo/tree/main/25.%20Reverse%20Nodes%20in%20k-Group)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
 |27|[Remove element](https://github.com/CheckHarry/LeetCodeRepo/tree/main/27.%20Remove%20element)|
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
-|32|[longestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20longestValidParentheses)|
+|32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
+|39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
 |45|[Jump Game II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/45.%20Jump%20Game%20II)|
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
