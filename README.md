@@ -22,9 +22,9 @@ Feel free to look around.
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
 |27|[Remove element](https://github.com/CheckHarry/LeetCodeRepo/tree/main/27.%20Remove%20element)|
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
-|32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
+|32|[longestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20longestValidParentheses)|
+|34|[Find First and Last Position of Element in Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
-|39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
 |45|[Jump Game II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/45.%20Jump%20Game%20II)|
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
@@ -57,6 +57,7 @@ Feel free to look around.
 |902|[Numbers At Most N Given Digit Set](https://github.com/CheckHarry/LeetCodeRepo/tree/main/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)|
 |973|[K Closest Points to Origin](https://github.com/CheckHarry/LeetCodeRepo/tree/main/973.%20K%20Closest%20Points%20to%20Origin)|
 |984|[String Without AAA or BBB](https://github.com/CheckHarry/LeetCodeRepo/tree/main/984.%20String%20Without%20AAA%20or%20BBB)|
+|997|[Find the Town Judge](https://github.com/CheckHarry/LeetCodeRepo/tree/main/997.%20Find%20the%20Town%20Judge)|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)|
 |1015|[Smallest Integer Divisible by K](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1015.%20Smallest%20Integer%20Divisible%20by%20K)|
 |1026|[Maximum Difference Between Node and Ancestor](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)|
