@@ -11,7 +11,7 @@ int longestValidParentheses(string s) {
 	stack<int> parentheses_stack;
 	parentheses_stack.push(0);
 	for (int i = 1; i < s.size(); i++) {
-		if (!parentheses_stack.empty() and s.at(i) == ')' and s.at(parentheses_stack.top()) == '(') parentheses_stack.pop();
+		if (!parentheses_stack.empty() && s.at(i) == ')' && s.at(parentheses_stack.top()) == '(') parentheses_stack.pop();
 		else parentheses_stack.push(i);
 	}
 	while (!parentheses_stack.empty()) {
