@@ -26,8 +26,7 @@ vector<int> searchRange(vector<int>& nums, int target) {
     vector<int> to_return{-1 , -1};
     if (nums.size() == 0) return to_return;
     else{
-        int ans_left ;
-        int left , right = nums.size() - 1;
+        int ans_left , left , right = nums.size() - 1;
         ans_left = find(nums , target);
         if (ans_left == -1) return to_return;
         left = ans_left;
