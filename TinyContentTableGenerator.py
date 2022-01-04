@@ -12,10 +12,10 @@ else:
 file = open('README.md' , 'w')
 file.write('# LeetCodeRepo\nThis is my personal LeetCodeRepo.\nFeel free to look around.\n\n\n## Contents\n|  \\#   | Title  |\n|  ----  | ----  |\n')
 URL_root = 'https://github.com/CheckHarry/LeetCodeRepo/tree/main/'
-try: 
-    dirs.remove('.git')
-except:
-    pass
+
+for directory in dirs:
+    if (not re.match('^([0-9]+)\. (.*)' , directory)):
+        dirs.remove(directory)
 
 dirs.sort(key = lambda x : int(re.match('^([0-9]*)\. (.*)' , x).group(1) ))
 pprint(dirs)

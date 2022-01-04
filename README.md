@@ -21,16 +21,19 @@ Feel free to look around.
 |25|[Reverse Nodes in k-Group](https://github.com/CheckHarry/LeetCodeRepo/tree/main/25.%20Reverse%20Nodes%20in%20k-Group)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
 |27|[Remove element](https://github.com/CheckHarry/LeetCodeRepo/tree/main/27.%20Remove%20element)|
+|30|[Substring with Concatenation of All Words](https://github.com/CheckHarry/LeetCodeRepo/tree/main/30.%20Substring%20with%20Concatenation%20of%20All%20Words)|
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
-|32|[longestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20longestValidParentheses)|
+|32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
 |34|[Find First and Last Position of Element in Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
+|39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
 |45|[Jump Game II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/45.%20Jump%20Game%20II)|
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
 |56|[Merge Intervals](https://github.com/CheckHarry/LeetCodeRepo/tree/main/56.%20Merge%20Intervals)|
 |66|[Plus One](https://github.com/CheckHarry/LeetCodeRepo/tree/main/66.%20Plus%20One)|
+|78|[Subsets](https://github.com/CheckHarry/LeetCodeRepo/tree/main/78.%20Subsets)|
 |116|[Populating Next Right Pointers in Each Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)|
 |143|[Reorder List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/143.%20Reorder%20List)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
@@ -58,6 +61,7 @@ Feel free to look around.
 |973|[K Closest Points to Origin](https://github.com/CheckHarry/LeetCodeRepo/tree/main/973.%20K%20Closest%20Points%20to%20Origin)|
 |984|[String Without AAA or BBB](https://github.com/CheckHarry/LeetCodeRepo/tree/main/984.%20String%20Without%20AAA%20or%20BBB)|
 |997|[Find the Town Judge](https://github.com/CheckHarry/LeetCodeRepo/tree/main/997.%20Find%20the%20Town%20Judge)|
+|1009|[Complement of Base 10 Integer](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1009.%20Complement%20of%20Base%2010%20Integer)|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)|
 |1015|[Smallest Integer Divisible by K](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1015.%20Smallest%20Integer%20Divisible%20by%20K)|
 |1026|[Maximum Difference Between Node and Ancestor](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)|
