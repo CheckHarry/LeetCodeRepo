@@ -16,12 +16,14 @@ struct ListNode {
 
 
 ListNode* mergeKLists(vector<ListNode*>& lists) {
+    if (lists.size() == 0) return nullptr;
     auto cmp = [](ListNode* x , ListNode* y){return x -> val > y -> val;};
     priority_queue<ListNode* , vector<ListNode*> , decltype(cmp)> k_minimal_queue(cmp);
-    for (ListNode* min_element: lists) k_minimal_queue.push(min_element);
+    for (ListNode* min_element: lists) {if(min_element != nullptr) k_minimal_queue.push(min_element);}
+    if (k_minimal_queue.empty()) return nullptr;
     ListNode *cur = k_minimal_queue.top() , *to_return = k_minimal_queue.top();
     k_minimal_queue.pop();
-    k_minimal_queue.push(cur -> next);
+    if(cur -> next != nullptr) k_minimal_queue.push(cur -> next);
     while (!k_minimal_queue.empty()){
         cur -> next = k_minimal_queue.top();
         k_minimal_queue.pop();
@@ -29,8 +31,4 @@ ListNode* mergeKLists(vector<ListNode*>& lists) {
         cur = cur -> next;
     }
     return to_return;
-}
-
-int main(){
-    
 }
