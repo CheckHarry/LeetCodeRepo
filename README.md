@@ -35,6 +35,7 @@ Feel free to look around.
 |66|[Plus One](https://github.com/CheckHarry/LeetCodeRepo/tree/main/66.%20Plus%20One)|
 |78|[Subsets](https://github.com/CheckHarry/LeetCodeRepo/tree/main/78.%20Subsets)|
 |116|[Populating Next Right Pointers in Each Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)|
+|131|[Palindrome Partitioning](https://github.com/CheckHarry/LeetCodeRepo/tree/main/131.%20Palindrome%20Partitioning)|
 |143|[Reorder List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/143.%20Reorder%20List)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
 |147|[Insertion Sort List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/147.%20Insertion%20Sort%20List)|
