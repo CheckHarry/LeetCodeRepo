@@ -32,7 +32,7 @@ vector<vector<string>> partition(string s) {
 
 int main(){
     
-    for (vector<string> &a : partition("aabaabaabaabaabaabaabaab")){
+    for (vector<string> &a : partition("aabaa")){
         for (string s : a ) cout << s << ',';
         cout << '\n';
     }

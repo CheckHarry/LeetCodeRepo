@@ -13,7 +13,9 @@ file = open('README.md' , 'w')
 file.write('# LeetCodeRepo\nThis is my personal LeetCodeRepo.\nFeel free to look around.\n\n\n## Contents\n|  \\#   | Title  |\n|  ----  | ----  |\n')
 URL_root = 'https://github.com/CheckHarry/LeetCodeRepo/tree/main/'
 
-
+if ".vscode" in dirs:
+    dirs.remove(".vscode")
+    
 for directory in dirs:
     if (not re.match('^([0-9]+)\. (.*)' , directory)):
         dirs.remove(directory)
