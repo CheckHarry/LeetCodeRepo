@@ -7,27 +7,15 @@ using namespace std;
 
 
 void dfs(vector<int> &nums ,vector<bool> &mask , vector<vector<int>>& to_return ,  vector<int>& vec ,int pos){
-    if (pos == nums.size() - 1){
-        for (int i = 0 ; i < nums.size() ; i ++) {
-            if (mask[i] == false) {
-                vec.push_back(nums[i]);
-                to_return.push_back(vec);
-                vec.pop_back();
-                break;
-            }
-        }
-    }
-    else{
-        for (int i = 0 ; i < nums.size() ; i ++){
-            if (mask[i] == false){
-                mask[i] = true;
-                vec.push_back(nums[i]);
-                if (pos == nums.size() - 1) to_return.push_back(vec);
-                else dfs(nums , mask , to_return , vec , pos + 1);
-                mask[i] = false;
-                vec.pop_back();
-                if (pos == nums.size() - 1) break;
-            }
+    for (int i = 0 ; i < nums.size() ; i ++){
+        if (mask[i] == false){
+            mask[i] = true;
+            vec.push_back(nums[i]);
+            if (pos == nums.size() - 1) to_return.push_back(vec);
+            else dfs(nums , mask , to_return , vec , pos + 1);
+            mask[i] = false;
+            vec.pop_back();
+            if (pos == nums.size() - 1) break;
         }
     }
 }

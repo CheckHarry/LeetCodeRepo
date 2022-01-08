@@ -25,9 +25,11 @@ Feel free to look around.
 |31|[Next Permutation](https://github.com/CheckHarry/LeetCodeRepo/tree/main/31.%20Next%20Permutation)|
 |32|[LongestValidParentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/32.%20LongestValidParentheses)|
 |34|[Find First and Last Position of Element in Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array)|
+|35|[Search Insert Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/35.%20Search%20Insert%20Position)|
 |37|[solveSudoku](https://github.com/CheckHarry/LeetCodeRepo/tree/main/37.%20solveSudoku)|
 |39|[Combination Sum](https://github.com/CheckHarry/LeetCodeRepo/tree/main/39.%20Combination%20Sum)|
 |45|[Jump Game II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/45.%20Jump%20Game%20II)|
+|46|[Permutations](https://github.com/CheckHarry/LeetCodeRepo/tree/main/46.%20Permutations)|
 |49|[groupAnagrams](https://github.com/CheckHarry/LeetCodeRepo/tree/main/49.%20groupAnagrams)|
 |51|[NQueens](https://github.com/CheckHarry/LeetCodeRepo/tree/main/51.%20NQueens)|
 |52|[NQueens II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/52.%20NQueens%20II)|
@@ -49,6 +51,7 @@ Feel free to look around.
 |231|[Power of Two](https://github.com/CheckHarry/LeetCodeRepo/tree/main/231.%20Power%20of%20Two)|
 |292|[Nim Game](https://github.com/CheckHarry/LeetCodeRepo/tree/main/292.%20Nim%20Game)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/CheckHarry/LeetCodeRepo/tree/main/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)|
+|382|[Linked List Random Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/382.%20Linked%20List%20Random%20Node)|
 |394|[Decode String](https://github.com/CheckHarry/LeetCodeRepo/tree/main/394.%20Decode%20String)|
 |461|[HammngDistance](https://github.com/CheckHarry/LeetCodeRepo/tree/main/461.%20HammngDistance)|
 |470|[Implement Rand10() Using Rand7()](https://github.com/CheckHarry/LeetCodeRepo/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())|
@@ -66,6 +69,7 @@ Feel free to look around.
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)|
 |1015|[Smallest Integer Divisible by K](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1015.%20Smallest%20Integer%20Divisible%20by%20K)|
 |1026|[Maximum Difference Between Node and Ancestor](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)|
+|1094|[Car Pooling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1094.%20Car%20Pooling)|
 |1200|[minimumAbsDifference](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1200.%20minimumAbsDifference)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
