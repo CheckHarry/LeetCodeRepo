@@ -69,7 +69,9 @@ Feel free to look around.
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060)|
 |1015|[Smallest Integer Divisible by K](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1015.%20Smallest%20Integer%20Divisible%20by%20K)|
 |1026|[Maximum Difference Between Node and Ancestor](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor)|
+|1041|[Robot Bounded In Circle](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1041.%20Robot%20Bounded%20In%20Circle)|
 |1094|[Car Pooling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1094.%20Car%20Pooling)|
 |1200|[minimumAbsDifference](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1200.%20minimumAbsDifference)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
+|1463|[Cherry Pickup II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1463.%20Cherry%20Pickup%20II)|
