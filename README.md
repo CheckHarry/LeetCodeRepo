@@ -17,6 +17,7 @@ Feel free to look around.
 |11|[Container With Most Water](https://github.com/CheckHarry/LeetCodeRepo/tree/main/11.%20Container%20With%20Most%20Water)|
 |17|[Letter Combinations of a Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)|
 |20|[Valid Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/20.%20Valid%20Parentheses)|
+|22|[Generate Parentheses](https://github.com/CheckHarry/LeetCodeRepo/tree/main/22.%20Generate%20Parentheses)|
 |23|[Merge k Sorted Lists](https://github.com/CheckHarry/LeetCodeRepo/tree/main/23.%20Merge%20k%20Sorted%20Lists)|
 |25|[Reverse Nodes in k-Group](https://github.com/CheckHarry/LeetCodeRepo/tree/main/25.%20Reverse%20Nodes%20in%20k-Group)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/26.%20Remove%20Duplicates%20from%20Sorted%20Array)|
@@ -39,6 +40,8 @@ Feel free to look around.
 |78|[Subsets](https://github.com/CheckHarry/LeetCodeRepo/tree/main/78.%20Subsets)|
 |116|[Populating Next Right Pointers in Each Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)|
 |131|[Palindrome Partitioning](https://github.com/CheckHarry/LeetCodeRepo/tree/main/131.%20Palindrome%20Partitioning)|
+|134|[Gas Station](https://github.com/CheckHarry/LeetCodeRepo/tree/main/134.%20Gas%20Station)|
+|142|[Linked List Cycle II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/142.%20Linked%20List%20Cycle%20II)|
 |143|[Reorder List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/143.%20Reorder%20List)|
 |146|[LRU Cache](https://github.com/CheckHarry/LeetCodeRepo/tree/main/146.%20LRU%20Cache)|
 |147|[Insertion Sort List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/147.%20Insertion%20Sort%20List)|
@@ -50,6 +53,7 @@ Feel free to look around.
 |220|[maximalSquare](https://github.com/CheckHarry/LeetCodeRepo/tree/main/220.%20maximalSquare)|
 |227|[Basic Calculator II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/227.%20Basic%20Calculator%20II)|
 |231|[Power of Two](https://github.com/CheckHarry/LeetCodeRepo/tree/main/231.%20Power%20of%20Two)|
+|290|[Word Pattern](https://github.com/CheckHarry/LeetCodeRepo/tree/main/290.%20Word%20Pattern)|
 |292|[Nim Game](https://github.com/CheckHarry/LeetCodeRepo/tree/main/292.%20Nim%20Game)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/CheckHarry/LeetCodeRepo/tree/main/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)|
 |382|[Linked List Random Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/382.%20Linked%20List%20Random%20Node)|
@@ -59,10 +63,12 @@ Feel free to look around.
 |470|[Implement Rand10() Using Rand7()](https://github.com/CheckHarry/LeetCodeRepo/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())|
 |476|[Number Complement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/476.%20Number%20Complement)|
 |526|[Beautiful Arrangement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/526.%20Beautiful%20Arrangement)|
+|605|[Can Place Flowers](https://github.com/CheckHarry/LeetCodeRepo/tree/main/605.%20Can%20Place%20Flowers)|
 |701|[Insert into a Binary Search Tree](https://github.com/CheckHarry/LeetCodeRepo/tree/main/701.%20Insert%20into%20a%20Binary%20Search%20Tree)|
 |721|[Accounts Merge](https://github.com/CheckHarry/LeetCodeRepo/tree/main/721.%20Accounts%20Merge)|
 |790|[Domino and Tromino Tiling](https://github.com/CheckHarry/LeetCodeRepo/tree/main/790.%20Domino%20and%20Tromino%20Tiling)|
 |849|[Maximize Distance to Closest Person](https://github.com/CheckHarry/LeetCodeRepo/tree/main/849.%20Maximize%20Distance%20to%20Closest%20Person)|
+|875|[Koko Eating Bananas](https://github.com/CheckHarry/LeetCodeRepo/tree/main/875.%20Koko%20Eating%20Bananas)|
 |876|[Middle of the Linked List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/876.%20Middle%20of%20the%20Linked%20List)|
 |878|[NthMagicBumber](https://github.com/CheckHarry/LeetCodeRepo/tree/main/878.%20NthMagicBumber)|
 |902|[Numbers At Most N Given Digit Set](https://github.com/CheckHarry/LeetCodeRepo/tree/main/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)|
@@ -83,3 +89,4 @@ Feel free to look around.
 |1345|[Jump Game IV](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1345.%20Jump%20Game%20IV)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
 |1463|[Cherry Pickup II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1463.%20Cherry%20Pickup%20II)|
+|1510|[Stone Game IV](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1510.%20Stone%20Game%20IV)|
