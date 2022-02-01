@@ -6,7 +6,6 @@ using namespace std;
 
 
 struct TrieNode{
-    char value;
     bool is_end = false;
     vector<TrieNode*> vec{26 , nullptr};
 };
@@ -28,7 +27,6 @@ public:
             if (cur -> vec[ x - 'a'] != nullptr) cur = cur -> vec[ x - 'a'];
             else{
                 TrieNode* newptr = new TrieNode;
-                newptr -> value = x;
                 cur -> vec[x - 'a'] = newptr;
                 cur = newptr;
             }
@@ -52,9 +50,7 @@ public:
             cur_nodes = next_nodes;
         }
         
-        for (TrieNode* node : cur_nodes){
-            if (node -> is_end) return true;
-        }
+        for (TrieNode* node : cur_nodes) if (node -> is_end) return true;
         return false;
     }
 };

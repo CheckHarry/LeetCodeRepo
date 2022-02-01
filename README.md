@@ -38,6 +38,7 @@ Feel free to look around.
 |66|[Plus One](https://github.com/CheckHarry/LeetCodeRepo/tree/main/66.%20Plus%20One)|
 |67|[Add Binary](https://github.com/CheckHarry/LeetCodeRepo/tree/main/67.%20Add%20Binary)|
 |78|[Subsets](https://github.com/CheckHarry/LeetCodeRepo/tree/main/78.%20Subsets)|
+|84|[Largest Rectangle in Histogram](https://github.com/CheckHarry/LeetCodeRepo/tree/main/84.%20Largest%20Rectangle%20in%20Histogram)|
 |116|[Populating Next Right Pointers in Each Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)|
 |131|[Palindrome Partitioning](https://github.com/CheckHarry/LeetCodeRepo/tree/main/131.%20Palindrome%20Partitioning)|
 |134|[Gas Station](https://github.com/CheckHarry/LeetCodeRepo/tree/main/134.%20Gas%20Station)|
@@ -49,7 +50,9 @@ Feel free to look around.
 |192|[Word Frequency](https://github.com/CheckHarry/LeetCodeRepo/tree/main/192.%20Word%20Frequency)|
 |193|[Valid Phone Number](https://github.com/CheckHarry/LeetCodeRepo/tree/main/193.%20Valid%20Phone%20Number)|
 |194|[Transpose File](https://github.com/CheckHarry/LeetCodeRepo/tree/main/194.%20Transpose%20File)|
+|208|[Implement Trie (Prefix Tree)](https://github.com/CheckHarry/LeetCodeRepo/tree/main/208.%20Implement%20Trie%20(Prefix%20Tree))|
 |210|[Course Schedule II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/210.%20Course%20Schedule%20II)|
+|211|[Design Add and Search Words Data Structure](https://github.com/CheckHarry/LeetCodeRepo/tree/main/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure)|
 |220|[maximalSquare](https://github.com/CheckHarry/LeetCodeRepo/tree/main/220.%20maximalSquare)|
 |227|[Basic Calculator II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/227.%20Basic%20Calculator%20II)|
 |231|[Power of Two](https://github.com/CheckHarry/LeetCodeRepo/tree/main/231.%20Power%20of%20Two)|
@@ -58,10 +61,12 @@ Feel free to look around.
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/CheckHarry/LeetCodeRepo/tree/main/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)|
 |382|[Linked List Random Node](https://github.com/CheckHarry/LeetCodeRepo/tree/main/382.%20Linked%20List%20Random%20Node)|
 |394|[Decode String](https://github.com/CheckHarry/LeetCodeRepo/tree/main/394.%20Decode%20String)|
+|421|[Maximum XOR of Two Numbers in an Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/421.%20Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://github.com/CheckHarry/LeetCodeRepo/tree/main/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)|
 |461|[HammngDistance](https://github.com/CheckHarry/LeetCodeRepo/tree/main/461.%20HammngDistance)|
 |470|[Implement Rand10() Using Rand7()](https://github.com/CheckHarry/LeetCodeRepo/tree/main/470.%20Implement%20Rand10()%20Using%20Rand7())|
 |476|[Number Complement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/476.%20Number%20Complement)|
+|520|[Detect Capital](https://github.com/CheckHarry/LeetCodeRepo/tree/main/520.%20Detect%20Capital)|
 |526|[Beautiful Arrangement](https://github.com/CheckHarry/LeetCodeRepo/tree/main/526.%20Beautiful%20Arrangement)|
 |605|[Can Place Flowers](https://github.com/CheckHarry/LeetCodeRepo/tree/main/605.%20Can%20Place%20Flowers)|
 |701|[Insert into a Binary Search Tree](https://github.com/CheckHarry/LeetCodeRepo/tree/main/701.%20Insert%20into%20a%20Binary%20Search%20Tree)|
@@ -72,6 +77,7 @@ Feel free to look around.
 |876|[Middle of the Linked List](https://github.com/CheckHarry/LeetCodeRepo/tree/main/876.%20Middle%20of%20the%20Linked%20List)|
 |878|[NthMagicBumber](https://github.com/CheckHarry/LeetCodeRepo/tree/main/878.%20NthMagicBumber)|
 |902|[Numbers At Most N Given Digit Set](https://github.com/CheckHarry/LeetCodeRepo/tree/main/902.%20Numbers%20At%20Most%20N%20Given%20Digit%20Set)|
+|941|[Valid Mountain Array](https://github.com/CheckHarry/LeetCodeRepo/tree/main/941.%20Valid%20Mountain%20Array)|
 |973|[K Closest Points to Origin](https://github.com/CheckHarry/LeetCodeRepo/tree/main/973.%20K%20Closest%20Points%20to%20Origin)|
 |984|[String Without AAA or BBB](https://github.com/CheckHarry/LeetCodeRepo/tree/main/984.%20String%20Without%20AAA%20or%20BBB)|
 |997|[Find the Town Judge](https://github.com/CheckHarry/LeetCodeRepo/tree/main/997.%20Find%20the%20Town%20Judge)|
@@ -86,6 +92,8 @@ Feel free to look around.
 |1195|[Fizz Buzz Multithreaded](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1195.%20Fizz%20Buzz%20Multithreaded)|
 |1200|[minimumAbsDifference](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1200.%20minimumAbsDifference)|
 |1217|[Minimum Cost to Move Chips to The Same Position](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1217.%20Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position)|
+|1291|[Sequential Digits](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1291.%20Sequential%20Digits)|
+|1305|[All Elements in Two Binary Search Trees](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees)|
 |1345|[Jump Game IV](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1345.%20Jump%20Game%20IV)|
 |1446|[Consecutive Characters](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1446.%20Consecutive%20Characters)|
 |1463|[Cherry Pickup II](https://github.com/CheckHarry/LeetCodeRepo/tree/main/1463.%20Cherry%20Pickup%20II)|
