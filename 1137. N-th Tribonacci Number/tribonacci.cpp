@@ -11,7 +11,7 @@ int tribonacci(int n) {
         temp = t[2];
         t[2] = t[2] + t[1] + t[0];
         t[0] = t[1];
-        t[1] = t[0];
+        t[1] = temp;
     }
     return t[2];
 }

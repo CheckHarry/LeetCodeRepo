@@ -19,5 +19,5 @@ int subarraySum(vector<int>& nums, int k) {
 
 int main(){
     vector<int> x{1,1,1};
-    cout << subarraySum(x , 2);
+    cout << subarraySum(x , 3);
 }

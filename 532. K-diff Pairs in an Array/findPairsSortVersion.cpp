@@ -9,8 +9,8 @@ int findPairs(vector<int>& nums, int k) {
     while(right < nums.size()){
         if (nums[right] - nums[left] < k) right ++;
         else if(nums[right] - nums[left] > k) left ++;
-        else if (left != right && (nums[right - 1] != nums[right] || left != right)){
-            ans ++;
+        else{
+            if (left != right && (nums[right - 1] != nums[right] || left != right)) ans ++;
             right ++;
         }
     }
