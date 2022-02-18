@@ -16,8 +16,6 @@ void dfs(vector<vector<int>> &to_return , vector<int> &candidates , vector<int> 
         dfs(to_return , candidates , vec , pos + 1, sum , target);
     }
     else return;
-    
-
 }
 
 vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -31,7 +29,7 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 
 
 int main(){
-    vector<int> x{2,3,6,7};
-    vector<vector<int>> y = combinationSum(x , 7);
+    vector<int> x{2,3,6,7,9,11,13};
+    vector<vector<int>> y = combinationSum(x , 60);
     for (vector<int> a : y) {for(int k : a) cout << k << ','; cout << '\n';}
 }
