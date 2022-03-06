@@ -29,8 +29,6 @@ int compareVersion(string version1, string version2) {
     for (char c : version2) if ( c == '.') b ++;
     len = max(a , b);
     vector<int> ver_vec1 = get_ver_vec(version1 , len) , ver_vec2 = get_ver_vec(version2 , len);
-    for (int x : ver_vec1) cout << x << ','; cout << '\n';
-    for (int x : ver_vec2) cout << x << ',';
     for (int i = 0 ; i < len ; i ++) {
         if (ver_vec1[i] > ver_vec2[i]) return 1;
         else if (ver_vec1[i] != ver_vec2[i]) return -1;

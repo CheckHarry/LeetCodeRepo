@@ -24,7 +24,7 @@ int shortestPathLength(vector<vector<int>>& graph) {
         if (front[2] == (1 << graph.size()) - 1) return front[1];
         for (int node : graph[front[0]]) {  
             if (seen[node][front[2] | 1 << node] == 0){
-                seen[node][front[2] | 1 << node] == 1;
+                seen[node][front[2] | 1 << node] = 1;
                 Q.push({node , front[1] + 1 , front[2] | 1 << node});
             }
         }
