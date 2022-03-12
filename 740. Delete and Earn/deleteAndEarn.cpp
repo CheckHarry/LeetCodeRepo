@@ -6,11 +6,6 @@ using namespace std;
 
 
 
-
-
-
-
-
 int deleteAndEarn(vector<int>& nums) {
     int ans = 0 , is_last = 1 , Max_ele = -1;
     for (int i : nums) Max_ele = max(Max_ele , i);
