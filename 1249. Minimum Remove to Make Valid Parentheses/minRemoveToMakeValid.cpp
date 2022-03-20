@@ -26,6 +26,6 @@ string minRemoveToMakeValid(string s) {
 
 
 int main(){
-    cout << minRemoveToMakeValid("lee(t(c)o)de)");
+    
 }
 
