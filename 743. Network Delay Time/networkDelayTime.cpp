@@ -12,9 +12,8 @@ int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         distance[k] = 0;
         q.emplace(k , 0);
         for (auto edge : times)
-        {
             edges_list[edge[0]].push_back({edge[1] , edge[2]});
-        }
+        
         while (!q.empty())
         {
             auto top = q.top();
